@@ -3,22 +3,28 @@ import Iframe from "react-iframe"
 
 
 export const Galery = () =>{
+
+    const urlImg = "https://www.pexels.com/search/furniture/"
+    const sth = {
+        justifyContent : "center",
+        textAlign : "center",
+        alignItems : "center"
+    }
     return(
         <div className="header">
 
-            <div className="inHeaderLeft">
-                <h2>Galery</h2>
-                <hr></hr>
+            <div className="galery">
                 
-                <div className="galery">
-                    <Iframe url="https://unsplash.com/search/photos/furniture"
-                        width="550px"
+                <div className="iframe">
+                    <Iframe url={urlImg}
                         height="450px"
                         id="myId"
                         className="myClassname"
                         display="initial"
-                        position="relative"
+                        position="absolute"
                         allowFullScreen />
+                        
+                        <h1 style={sth}>Loading</h1>
                 </div>
             </div>
 

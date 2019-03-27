@@ -78,7 +78,7 @@ class Main extends Component {
 
                    
                     
-                    {this.al()}
+            {this.al()}
                     
 
             {/* <Route exact path="/" component={About} />
