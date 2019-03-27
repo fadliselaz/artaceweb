@@ -11,7 +11,14 @@ export const Galery = () =>{
                 <hr></hr>
                 
                 <div className="galery">
-                    <Iframe url="https://www.w3schools.com" />
+                    <Iframe url="http://www.youtube.com/embed/xDMP3i36naA"
+                        width="550px"
+                        height="450px"
+                        id="myId"
+                        className="myClassname"
+                        display="initial"
+                        position="relative"
+                        allowFullScreen />
                 </div>
             </div>
 

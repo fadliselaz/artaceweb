@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import {About} from "./About"
 import {Contact} from "./Contact"
 import {Galery} from "./Galery"
+import {Login} from "./Login"
 
 
 class Main extends Component {
@@ -36,7 +37,7 @@ class Main extends Component {
         }
         if (this.state.linkTo == "login") {
             return(
-                <h1>Login</h1>
+                <Login />
             )
         }
     }
